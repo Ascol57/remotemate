@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemoteMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="grid-container">
+        <div class="navbar">
+            <div class="header">RemoteMate</div>
+            <div class="screen">
+                <div class="status"></div>
+            </div>
+            <div class="settings">
+                <div class="settingsLock locked">
+                    <img class="lock" src="settings-lock.svg" />
+                    <img class="unlock" src="settings-unlock.svg" />
+                </div>
+                <div class="flex">
+                    <a>Host :</a>
+                    <input type="text" id="hostname" value="localhost" placeholder="Hostname">
+                </div>
+                <div class="flex">
+                    <a>Port :</a>
+                    <input type="text" id="port" value="8181" placeholder="Port">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
